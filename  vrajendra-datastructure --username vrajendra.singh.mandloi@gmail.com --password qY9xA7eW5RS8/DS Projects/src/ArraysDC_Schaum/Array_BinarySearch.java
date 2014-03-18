@@ -31,7 +31,7 @@ public class Array_BinarySearch {
 					continue;
 				}
 				i++;
-			}
+			}	// this is great if it sync evenly
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		} finally {
