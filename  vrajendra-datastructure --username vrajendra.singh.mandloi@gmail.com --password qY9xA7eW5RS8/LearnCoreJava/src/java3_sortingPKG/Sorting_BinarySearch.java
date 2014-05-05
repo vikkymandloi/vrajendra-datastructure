@@ -21,17 +21,9 @@ public class Sorting_BinarySearch {
 				System.out.println("index is : "+mid);
 				break;
 			} else if(arr[mid] > key) {
-				high = mid;
-				if(arr[high]==key){
-					System.out.println("index is : "+mid);
-					break;
-				}					
+				high = mid;				
 			} else if(arr[mid] < key) {
 				low = mid;
-				if(arr[low]==key){
-					System.out.println("index is : "+mid);
-					break;
-				}
 			}
 		}
 	}

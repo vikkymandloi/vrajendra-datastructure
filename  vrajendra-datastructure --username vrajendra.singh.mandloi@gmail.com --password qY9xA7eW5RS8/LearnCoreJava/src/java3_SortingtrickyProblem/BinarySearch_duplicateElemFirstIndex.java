@@ -10,7 +10,7 @@ public class BinarySearch_duplicateElemFirstIndex {
 	
 	public BinarySearch_duplicateElemFirstIndex(){
 		for(int i=0;i<MAX_SIZE;i++)
-			arr[i] = new Random().nextInt(5);
+			arr[i] = new Random().nextInt(20);
 		Arrays.sort(arr);
 	}
 	
@@ -23,12 +23,10 @@ public class BinarySearch_duplicateElemFirstIndex {
 			return;
 		}
 		
-		if(key==arr[low])
-		{
+		if(key==arr[low]) {
 			System.out.println("Key is present at the 0th index");
 			return;
-		} else if(arr[high]== key)
-		{
+		} else if(arr[high]== key) {
 			if(arr[high-1] != key){
 				System.out.println("Key is present at the last index");
 				return;
