@@ -1,10 +1,11 @@
 package java1_variablesPKG;
 
 public class ClassVariablesTest {
-	static Integer var1;
 	
 	public static void main(String[] args) {
-		System.out.println(var1);
+		int b1 = -1100;
+		int b2 =  b1 >>> 16;
+		double d= Math.cbrt(27);
+		System.out.println(~b1);
 	}
-
 }
